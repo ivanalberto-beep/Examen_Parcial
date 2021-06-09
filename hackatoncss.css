@@ -1,0 +1,92 @@
+@import url("https://fonts.google.com/specimen/Dela+Gothic+One?preview.text_type=custom");
+
+body{
+    margin: 0;
+}
+
+.encabezado-redes-sociales{
+    background-color:#5cd9f0;
+    height:60px;
+    color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado-redes-sociales i{
+    color:whitesmoke;
+}
+
+.encabezado-redes-sociales a{
+    margin-right: 15px;
+
+}
+
+
+nav {
+    height: 80px;
+    background-color: rgb(203,255,246);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+nav .nav-imagen-logo img{
+    height: 60px;
+}
+
+nav .nav-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-menu-ul li{
+    margin-right: 30px;
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+}
+
+.tomorrow{
+    width: 600px;
+}
+
+.tomorrow img{
+    width:80%;
+    border: solid;
+}
+
+.explicacion{
+    width:600px;
+    height: 90%;
+    font-family: 'Roboto';
+    border: groove;
+    background-color: rgba(255, 255, 255, 0.418);
+    /* margin-left: 50px */
+}
+
+.explicacion h1{
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    margin: 0%;
+}
+
+.explicacion ul{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.explicacion li{
+    margin-bottom: 18px;
+}
+
+.proyectos-main{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: none;
+    margin-top: 1.5%;
+}

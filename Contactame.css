@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap');
+
+body{
+    margin: 0;
+}
+
+.encabezado-redes-sociales{
+    background-color: #10505c;
+    height: 60px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado-redes-sociales i1{
+    color: rgb(22, 0, 224);
+}
+
+.encabezado-redes-sociales i2{
+    background-image: linear-gradient(rgb(44, 6, 116),rgb(190, 9, 48), rgb(230, 171, 10));
+}
+
+.encabezado-redes-sociales i3{
+    color: rgb(251, 255, 0);
+}
+
+.encabezado-redes-sociales i5{
+    color: #0053ee;
+}
+
+
+.encabezado-redes-sociales a{
+    margin-right: 15px;
+    width: 25px;
+}
+
+nav {
+    height: 80px;
+    background-color: rgb(203,255,246);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Teko', sans-serif;
+    font-weight: bolder;
+}
+
+nav .nav-imagen-logo img{
+    height: 60px;
+}
+
+nav .nav-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-menu-ul li{
+    margin-right: 20px;
+    
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: rgb(2, 2, 48);
+    font-size: 30px;
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+
+}
+
+
+.tras{
+    background-image: url("africa_contac2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+
+}
+
+.main-section{
+    color: white;
+    text-align: center;
+}
+
+.main-section h1{
+    font-size: 100px;
+    margin-bottom: 0;
+    font-family: "Licida Sans";
+}
+
+.main-section p{
+    font-size: 25px;
+    margin-top: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    border: solid;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial black';
+    font-size: 20px;
+    background-color: tomato;
+}
+
+.footer p{
+    color: rgb(0, 0, 0);
+}
+
+.proyectos-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center */
+    margin-top: 100px;
+}
+
+.proyectos-imagen{
+    width: 600%;
+}
+
+.proyectos-imagen img{
+    width: 50%;
+}
+
+.informacion{
+    font-family: 'Teko';
+    margin-left: 50px;
+}
+
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.informacion ul{
+    list-style: none;
+    padding-left: 30px;
+}
+
+
+.Imagen {
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    font-family: monospace
+    
+}
+
+
+.Imagen img{
+max-width: 300px;
+width: 700px;
+
+}
+.Imagen h1{
+font-family: 'Lucida Sans';
+margin: 0;
+font-size: 80px;
+color: white;
+}
+
+.Imagen p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
